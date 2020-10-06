@@ -83,7 +83,26 @@ html[lang="vi"] .profit-calculator .pc-quantity .irs .irs-min:before {
 html[lang="vi"] .profit-calculator .pc-quantity .irs .irs-max:before {
     content: "100 TR";
 }
-#insertimage1
+.welcome-map > picture
 {
-    min-height: 35vh;
+    opacity: 0;
+
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear;
+}
+.welcome-map.on-screen > picture
+{
+    opacity: 1;
+}
+.welcome-map #insertimage1
+{
+    opacity: 0;
+    min-height: 61.4vw;
+
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear;
+}
+.welcome-map.on-screen #insertimage1
+{
+    opacity: 1;
 }

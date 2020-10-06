@@ -6684,8 +6684,8 @@ $(function(){
 				url: location.origin + '/img/image-php/image1.php',
 				cache: true,
 				success: function (response) {
-					$('#insertimage1').html(response);
-					$('.welcome-map > picture').css('opacity', 1);
+					$('#insertimage1').html(response).addClass('on-screen');
+					$('.welcome-map').addClass('on-screen');
 
 					if($(window).width() > 1023)
 					{
