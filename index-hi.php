@@ -1,18 +1,42 @@
 <!DOCTYPE html>
 <html lang="hi">
 <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-TG4J8Q9');
+    </script>
+    <!-- End Google Tag Manager -->
+
 	<link rel="preconnect" href="https://cdn.jsdelivr.net" />
 	<link rel="prefetch" href="img/logo.webp">
 	<link rel="prefetch" href="img/youtube.png">
     <meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-	<link rel="alternate" href="https://air.io/krakatau" hreflang="ru" />
-    <link rel="alternate" href="https://air.io/en/krakatau" hreflang="en" />
 
     <title>अपने यूट्यूब कॉन्टेंट को पूरी दुनिया जीतने दें।</title>
 	<meta name="description" content="आय वृद्धि के लिए लोकप्रिय 14 भाषाओं में सर्वोत्तम CPM के साथ अपने कॉन्टेंट स्थानीयकृत करें। :white_check_mark: अपने यूट्यूब कॉन्टेंट को पूरी दुनिया जीतने दें।">
 
-   	<link rel="stylesheet" href="css/site-bundle.css">
+    <link rel="canonical" href="https://krakatau.pro/hi">
+    <link rel="alternate" href="https://krakatau.pro/ru" hreflang="ru">
+    <link rel="alternate" href="https://krakatau.pro/ua" hreflang="uk">
+    <link rel="alternate" href="https://krakatau.pro" hreflang="en">
+    <link rel="alternate" href="https://krakatau.pro/ar" hreflang="ar">
+    <link rel="alternate" href="https://krakatau.pro/ch" hreflang="ch">
+    <link rel="alternate" href="https://krakatau.pro/de" hreflang="de">
+    <link rel="alternate" href="https://krakatau.pro/fr" hreflang="fr">
+    <link rel="alternate" href="https://krakatau.pro/hi" hreflang="hi">
+    <link rel="alternate" href="https://krakatau.pro/in" hreflang="in">
+    <link rel="alternate" href="https://krakatau.pro/it" hreflang="it">
+    <link rel="alternate" href="https://krakatau.pro/jp" hreflang="jp">
+    <link rel="alternate" href="https://krakatau.pro/ko" hreflang="ko">
+    <link rel="alternate" href="https://krakatau.pro/po" hreflang="po">
+    <link rel="alternate" href="https://krakatau.pro/sp" hreflang="sp">
+    <link rel="alternate" href="https://krakatau.pro/vi" hreflang="vi">
+
+    <link rel="stylesheet" href="css/site-bundle.css">
    	<link rel="stylesheet" href="css/style.min.css">
 
     <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
@@ -56,6 +80,13 @@
     $bodyclass = '';
 }?>
 <body class="<?=$bodyclass?> index-hin">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TG4J8Q9"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
 	<div id="wrapper">
 		<header class="kr-header" style="background-color: #1b1c1c;">
 			<div class="container">
