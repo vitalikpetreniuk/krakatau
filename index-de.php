@@ -673,6 +673,7 @@
                 data: formdatasend,
                 success: function () {
                     dataLayer.push({'event': 'FormSuccess'});
+                    f.reset();
                 }
             });
             document.getElementById('popup').classList.add('show');
@@ -721,6 +722,7 @@
                 data: formdatasend,
                 success: function () {
                     dataLayer.push({'event': 'FormSuccess'});
+                    f.reset();
                 }
             });
             $('.kr-request').removeClass('show');

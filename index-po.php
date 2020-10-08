@@ -675,6 +675,7 @@ CPM para aumento do rendimento. :white_check_mark: Faça seu conteúdo no YouTub
                 data: formdatasend,
                 success: function () {
                     dataLayer.push({'event': 'FormSuccess'});
+                    f.reset();
                 }
             });
             document.getElementById('popup').classList.add('show');
@@ -723,6 +724,7 @@ CPM para aumento do rendimento. :white_check_mark: Faça seu conteúdo no YouTub
                 data: formdatasend,
                 success: function () {
                     dataLayer.push({'event': 'FormSuccess'});
+                    f.reset();
                 }
             });
             $('.kr-request').removeClass('show');
