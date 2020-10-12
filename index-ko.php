@@ -17,23 +17,23 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
     <title>유튜브 채널 번역 및 현지화- KRAKATAU서비스</title>
-	<meta name="description" content="매출 성장에 가장 높은 CPM으로 가장 인기 있는 14개 언어로 콘텐츠를 현지화하십시오. :white_check_mark: 여러분의 YouTube 콘텐츠가 전 세계를 정복하게 하십시오!">
+	<meta name="description" content="매출 성장에 가장 높은 CPM으로 가장 인기 있는 14개 언어로 콘텐츠를 현지화하십시오. &#x2705; 여러분의 YouTube 콘텐츠가 전 세계를 정복하게 하십시오!">
 
     <link rel="canonical" href="https://krakatau.pro/ko">
     <link rel="alternate" href="https://krakatau.pro/ru" hreflang="ru">
     <link rel="alternate" href="https://krakatau.pro/ua" hreflang="uk">
     <link rel="alternate" href="https://krakatau.pro" hreflang="en">
     <link rel="alternate" href="https://krakatau.pro/ar" hreflang="ar">
-    <link rel="alternate" href="https://krakatau.pro/ch" hreflang="ch">
+    <link rel="alternate" href="https://krakatau.pro/ch" hreflang="zh">
     <link rel="alternate" href="https://krakatau.pro/de" hreflang="de">
     <link rel="alternate" href="https://krakatau.pro/fr" hreflang="fr">
     <link rel="alternate" href="https://krakatau.pro/hi" hreflang="hi">
-    <link rel="alternate" href="https://krakatau.pro/in" hreflang="in">
+    <link rel="alternate" href="https://krakatau.pro/in" hreflang="id">
     <link rel="alternate" href="https://krakatau.pro/it" hreflang="it">
-    <link rel="alternate" href="https://krakatau.pro/jp" hreflang="jp">
+    <link rel="alternate" href="https://krakatau.pro/jp" hreflang="ja">
     <link rel="alternate" href="https://krakatau.pro/ko" hreflang="ko">
-    <link rel="alternate" href="https://krakatau.pro/po" hreflang="po">
-    <link rel="alternate" href="https://krakatau.pro/sp" hreflang="sp">
+    <link rel="alternate" href="https://krakatau.pro/po" hreflang="pl">
+    <link rel="alternate" href="https://krakatau.pro/sp" hreflang="es">
     <link rel="alternate" href="https://krakatau.pro/vi" hreflang="vi">
 
     <link rel="stylesheet" href="css/site-bundle.css">
@@ -110,7 +110,6 @@
 						<li><a href="#profit">수익</a></li>
 						<li><a href="#audience">시청자</a></li>
 						<li><a href="#infographics">사례</a></li>
-						<li><a href="#team">우리 팀</a></li>
 					</ul>
 					<div class="kr-header__nav-contact">
 						<button>문의하기</button>
@@ -134,7 +133,6 @@
 						<li><a href="#profit">수익</a></li>
 						<li><a href="#audience">시청자</a></li>
 						<li><a href="#infographics">사례</a></li>
-						<li><a href="#team">우리 팀</a></li>
 					</ul>
 					<div class="kr-header__nav-contact">
 						<button>문의하기</button>
@@ -670,6 +668,9 @@
                     success: function () {
                         dataLayer.push({'event': 'FormSuccess'});
                         f.reset();
+                        document.getElementById('input_name').classList.remove('success');
+                        document.getElementById('input_email').classList.remove('success');
+                        document.getElementById('input_link').classList.remove('success');
                     }
                 });
                 document.getElementById('popup').classList.add('show');
@@ -719,6 +720,9 @@
                     success: function () {
                         dataLayer.push({'event': 'FormSuccess'});
                         f.reset();
+                        document.getElementById('input_name2').classList.remove('success');
+                        document.getElementById('input_email2').classList.remove('success');
+                        document.getElementById('input_link2').classList.remove('success');
                     }
                 });
                 $('.kr-request').removeClass('show');

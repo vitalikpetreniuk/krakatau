@@ -18,23 +18,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,600&display=swap" rel="stylesheet">
 
     <title>Dịch Vụ Dịch Thuật và Bản Địa Hóa kênh YouTube KRAKATAU</title>
-	<meta name="description" content="Dịch kênh Youtube của bạn sang 14 ngôn ngữ phổ biến nhất có mức tăng trưởng doanh thu CPM cao nhất. :white_check_mark: Hãy để kênh Youtube của bạn chinh phục cả thế giới!">
+	<meta name="description" content="Dịch kênh Youtube của bạn sang 14 ngôn ngữ phổ biến nhất có mức tăng trưởng doanh thu CPM cao nhất. &#x2705; Hãy để kênh Youtube của bạn chinh phục cả thế giới!">
 
     <link rel="canonical" href="https://krakatau.pro/vi">
     <link rel="alternate" href="https://krakatau.pro/ru" hreflang="ru">
     <link rel="alternate" href="https://krakatau.pro/ua" hreflang="uk">
     <link rel="alternate" href="https://krakatau.pro" hreflang="en">
     <link rel="alternate" href="https://krakatau.pro/ar" hreflang="ar">
-    <link rel="alternate" href="https://krakatau.pro/ch" hreflang="ch">
+    <link rel="alternate" href="https://krakatau.pro/ch" hreflang="zh">
     <link rel="alternate" href="https://krakatau.pro/de" hreflang="de">
     <link rel="alternate" href="https://krakatau.pro/fr" hreflang="fr">
     <link rel="alternate" href="https://krakatau.pro/hi" hreflang="hi">
-    <link rel="alternate" href="https://krakatau.pro/in" hreflang="in">
+    <link rel="alternate" href="https://krakatau.pro/in" hreflang="id">
     <link rel="alternate" href="https://krakatau.pro/it" hreflang="it">
-    <link rel="alternate" href="https://krakatau.pro/jp" hreflang="jp">
+    <link rel="alternate" href="https://krakatau.pro/jp" hreflang="ja">
     <link rel="alternate" href="https://krakatau.pro/ko" hreflang="ko">
-    <link rel="alternate" href="https://krakatau.pro/po" hreflang="po">
-    <link rel="alternate" href="https://krakatau.pro/sp" hreflang="sp">
+    <link rel="alternate" href="https://krakatau.pro/po" hreflang="pl">
+    <link rel="alternate" href="https://krakatau.pro/sp" hreflang="es">
     <link rel="alternate" href="https://krakatau.pro/vi" hreflang="vi">
 
     <link rel="stylesheet" href="css/site-bundle.css">
@@ -111,7 +111,6 @@
 						<li><a href="#profit">Lợi nhuận</a></li>
 						<li><a href="#audience">Người xem</a></li>
 						<li><a href="#infographics">Những trường hợp thực tế</a></li>
-						<li><a href="#team">Về chúng tôi</a></li>
 					</ul>
 					<div class="kr-header__nav-contact">
 						<button>Liên hệ</button>
@@ -135,7 +134,6 @@
 						<li><a href="#profit">Lợi nhuận</a></li>
 						<li><a href="#audience">Người xem</a></li>
 						<li><a href="#infographics">Những trường hợp thực tế</a></li>
-						<li><a href="#team">Về chúng tôi</a></li>
 					</ul>
 					<div class="kr-header__nav-contact">
 						<button>Liên hệ</button>
@@ -674,6 +672,9 @@
                 success: function () {
                     dataLayer.push({'event': 'FormSuccess'});
                     f.reset();
+                    document.getElementById('input_name').classList.remove('success');
+                    document.getElementById('input_email').classList.remove('success');
+                    document.getElementById('input_link').classList.remove('success');
                 }
             });
             document.getElementById('popup').classList.add('show');
@@ -723,6 +724,9 @@
                 success: function () {
                     dataLayer.push({'event': 'FormSuccess'});
                     f.reset();
+                    document.getElementById('input_name2').classList.remove('success');
+                    document.getElementById('input_email2').classList.remove('success');
+                    document.getElementById('input_link2').classList.remove('success');
                 }
             });
             $('.kr-request').removeClass('show');

@@ -17,23 +17,23 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
     <title>Übersetzungs-Dienst für YouTube-Kanäle KRAKATAU</title>
-    <meta name="description" content="Übersetze deine Inhalte in die 14 beliebtesten Sprachen mit höchstem CPM für Gewinnwachstum. :white_check_mark:️ Deine YouTube-Inhalte erobern die ganze Welt!">
+    <meta name="description" content="Übersetze deine Inhalte in die 14 beliebtesten Sprachen mit höchstem CPM für Gewinnwachstum. &#x2705;️ Deine YouTube-Inhalte erobern die ganze Welt!">
 
     <link rel="canonical" href="https://krakatau.pro/de">
     <link rel="alternate" href="https://krakatau.pro/ru" hreflang="ru">
     <link rel="alternate" href="https://krakatau.pro/ua" hreflang="uk">
     <link rel="alternate" href="https://krakatau.pro" hreflang="en">
     <link rel="alternate" href="https://krakatau.pro/ar" hreflang="ar">
-    <link rel="alternate" href="https://krakatau.pro/ch" hreflang="ch">
+    <link rel="alternate" href="https://krakatau.pro/ch" hreflang="zh">
     <link rel="alternate" href="https://krakatau.pro/de" hreflang="de">
     <link rel="alternate" href="https://krakatau.pro/fr" hreflang="fr">
     <link rel="alternate" href="https://krakatau.pro/hi" hreflang="hi">
-    <link rel="alternate" href="https://krakatau.pro/in" hreflang="in">
+    <link rel="alternate" href="https://krakatau.pro/in" hreflang="id">
     <link rel="alternate" href="https://krakatau.pro/it" hreflang="it">
-    <link rel="alternate" href="https://krakatau.pro/jp" hreflang="jp">
+    <link rel="alternate" href="https://krakatau.pro/jp" hreflang="ja">
     <link rel="alternate" href="https://krakatau.pro/ko" hreflang="ko">
-    <link rel="alternate" href="https://krakatau.pro/po" hreflang="po">
-    <link rel="alternate" href="https://krakatau.pro/sp" hreflang="sp">
+    <link rel="alternate" href="https://krakatau.pro/po" hreflang="pl">
+    <link rel="alternate" href="https://krakatau.pro/sp" hreflang="es">
     <link rel="alternate" href="https://krakatau.pro/vi" hreflang="vi">
 
     <link rel="stylesheet" href="css/site-bundle.css">
@@ -110,7 +110,6 @@
 						<li><a href="#profit">Gewinn</a></li>
 						<li><a href="#audience">Zielgruppe</a></li>
 						<li><a href="#infographics">Fallbeispiele</a></li>
-						<li><a href="#team">Unser Team</a></li>
 					</ul>
 					<div class="kr-header__nav-contact">
 						<button>Kontaktiere uns</button>
@@ -134,7 +133,6 @@
 						<li><a href="#profit">Gewinn</a></li>
 						<li><a href="#audience">Zielgruppe</a></li>
 						<li><a href="#infographics">Fallbeispiele</a></li>
-						<li><a href="#team">Unser Team</a></li>
 					</ul>
 					<div class="kr-header__nav-contact">
 						<button>Kontaktiere uns</button>
@@ -674,6 +672,9 @@
                 success: function () {
                     dataLayer.push({'event': 'FormSuccess'});
                     f.reset();
+                    document.getElementById('input_name').classList.remove('success');
+                    document.getElementById('input_email').classList.remove('success');
+                    document.getElementById('input_link').classList.remove('success');
                 }
             });
             document.getElementById('popup').classList.add('show');
@@ -723,6 +724,9 @@
                 success: function () {
                     dataLayer.push({'event': 'FormSuccess'});
                     f.reset();
+                    document.getElementById('input_name2').classList.remove('success');
+                    document.getElementById('input_email2').classList.remove('success');
+                    document.getElementById('input_link2').classList.remove('success');
                 }
             });
             $('.kr-request').removeClass('show');

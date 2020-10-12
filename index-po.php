@@ -18,23 +18,23 @@
 
     <title>KRAKATAU — Serviços Tradução e Localização de Canais do YouTube</title>
 	<meta name="description" content="Localize seu conteúdo nos 14 idiomas mais populares com o maior
-CPM para aumento do rendimento. :white_check_mark: Faça seu conteúdo no YouTube dominar o mundo!">
+CPM para aumento do rendimento. &#x2705; Faça seu conteúdo no YouTube dominar o mundo!">
 
     <link rel="canonical" href="https://krakatau.pro/po">
     <link rel="alternate" href="https://krakatau.pro/ru" hreflang="ru">
     <link rel="alternate" href="https://krakatau.pro/ua" hreflang="uk">
     <link rel="alternate" href="https://krakatau.pro" hreflang="en">
     <link rel="alternate" href="https://krakatau.pro/ar" hreflang="ar">
-    <link rel="alternate" href="https://krakatau.pro/ch" hreflang="ch">
+    <link rel="alternate" href="https://krakatau.pro/ch" hreflang="zh">
     <link rel="alternate" href="https://krakatau.pro/de" hreflang="de">
     <link rel="alternate" href="https://krakatau.pro/fr" hreflang="fr">
     <link rel="alternate" href="https://krakatau.pro/hi" hreflang="hi">
-    <link rel="alternate" href="https://krakatau.pro/in" hreflang="in">
+    <link rel="alternate" href="https://krakatau.pro/in" hreflang="id">
     <link rel="alternate" href="https://krakatau.pro/it" hreflang="it">
-    <link rel="alternate" href="https://krakatau.pro/jp" hreflang="jp">
+    <link rel="alternate" href="https://krakatau.pro/jp" hreflang="ja">
     <link rel="alternate" href="https://krakatau.pro/ko" hreflang="ko">
-    <link rel="alternate" href="https://krakatau.pro/po" hreflang="po">
-    <link rel="alternate" href="https://krakatau.pro/sp" hreflang="sp">
+    <link rel="alternate" href="https://krakatau.pro/po" hreflang="pl">
+    <link rel="alternate" href="https://krakatau.pro/sp" hreflang="es">
     <link rel="alternate" href="https://krakatau.pro/vi" hreflang="vi">
 
     <link rel="stylesheet" href="css/site-bundle.css">
@@ -111,7 +111,6 @@ CPM para aumento do rendimento. :white_check_mark: Faça seu conteúdo no YouTub
 						<li><a href="#profit">Lucro</a></li>
 						<li><a href="#audience">Audiência</a></li>
 						<li><a href="#infographics">Casos</a></li>
-						<li><a href="#team">Nossa equipe</a></li>
 					</ul>
 					<div class="kr-header__nav-contact">
 						<button>Contate-nos</button>
@@ -135,7 +134,6 @@ CPM para aumento do rendimento. :white_check_mark: Faça seu conteúdo no YouTub
 						<li><a href="#profit">Lucro</a></li>
 						<li><a href="#audience">Audiência</a></li>
 						<li><a href="#infographics">Casos</a></li>
-						<li><a href="#team">Nossa equipe</a></li>
 					</ul>
 					<div class="kr-header__nav-contact">
 						<button>Contate-nos</button>
@@ -676,6 +674,9 @@ CPM para aumento do rendimento. :white_check_mark: Faça seu conteúdo no YouTub
                 success: function () {
                     dataLayer.push({'event': 'FormSuccess'});
                     f.reset();
+                    document.getElementById('input_name').classList.remove('success');
+                    document.getElementById('input_email').classList.remove('success');
+                    document.getElementById('input_link').classList.remove('success');
                 }
             });
             document.getElementById('popup').classList.add('show');
@@ -725,6 +726,9 @@ CPM para aumento do rendimento. :white_check_mark: Faça seu conteúdo no YouTub
                 success: function () {
                     dataLayer.push({'event': 'FormSuccess'});
                     f.reset();
+                    document.getElementById('input_name2').classList.remove('success');
+                    document.getElementById('input_email2').classList.remove('success');
+                    document.getElementById('input_link2').classList.remove('success');
                 }
             });
             $('.kr-request').removeClass('show');
