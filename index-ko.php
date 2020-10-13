@@ -601,7 +601,7 @@
 					<li><a href="/sp">스페인어</a></li>
 					<li><a href="/hi">힌디어</a></li>
 					<li><a href="/ar">아랍어</a></li>
-					<li><a href="/m_content/krakatau">러시아어</a></li>
+					<li><a href="/ru">러시아어</a></li>
 					<li><a href="/fr">프랑스어</a></li>
 					<li><a href="/po">포르투갈어</a></li>
 					<li><a href="/in">인도네시아어</a></li>

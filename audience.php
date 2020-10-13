@@ -227,11 +227,11 @@
 
 	<div class="audience-hello" data-aos="fade-in" data-aos-offset="200">
 		<span></span>
-		<img class="hin lazy" data-src="img/hello/hin.png" alt="नमस्ते">
-		<img class="ara lazy" data-src="img/hello/ara.png" alt="مرحبا">
-		<img class="chi lazy" data-src="img/hello/chi.png" alt="你好">
-		<img class="jpn lazy" data-src="img/hello/jpn.png" alt="こんにちは">
-		<img class="kor lazy" data-src="img/hello/kor.png" alt="안녕">
+		<img class="hin" src="img/hello/hin.png" alt="नमस्ते">
+		<img class="ara" src="img/hello/ara.png" alt="مرحبا">
+		<img class="chi" src="img/hello/chi.png" alt="你好">
+		<img class="jpn" src="img/hello/jpn.png" alt="こんにちは">
+		<img class="kor" src="img/hello/kor.png" alt="안녕">
 	</div>
 	<div class="audience-quantity" data-aos="zoom-in" data-aos-offset="0"></div>
 	<div class="audience-lang" data-aos="fade-in" data-aos-offset="0"><span></span></div>

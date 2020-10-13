@@ -601,7 +601,7 @@
 					<li><a href="/sp">स्पेनिश</a></li>
 					<li class="active">हिन्दी</li>
 					<li><a href="/ar">अरबी</a></li>
-					<li><a href="/m_content/krakatau">रशियन</a></li>
+					<li><a href="/ru">रशियन</a></li>
 					<li><a href="/fr">फ्रेंच</a></li>
 					<li><a href="/po">पुर्तगाली</a></li>
 					<li><a href="/in">इन्डोनेशियाई</a></li>

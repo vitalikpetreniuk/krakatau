@@ -603,7 +603,7 @@
 					<li><a href="/sp">Espagnol</a></li>
 					<li><a href="/hi">Hindi</a></li>
 					<li><a href="/ar">Arabe</a></li>
-					<li><a href="/m_content/krakatau">Russe</a></li>
+					<li><a href="/ru">Russe</a></li>
 					<li class="active">Français</li>
 					<li><a href="/po">Portugais</a></li>
 					<li><a href="/in">Indonésien</a></li>

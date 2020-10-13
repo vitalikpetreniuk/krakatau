@@ -603,7 +603,7 @@
 					<li><a href="/sp">西班牙語</a></li>
 					<li><a href="/hi">印度語</a></li>
 					<li><a href="/ar">阿拉伯語</a></li>
-					<li><a href="/m_content/krakatau">俄語</a></li>
+					<li><a href="/ru">俄語</a></li>
 					<li><a href="/fr">法語</a></li>
 					<li><a href="/po">葡萄牙語</a></li>
 					<li><a href="/in">印尼語</a></li>

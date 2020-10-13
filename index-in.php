@@ -605,7 +605,7 @@
 					<li><a href="/sp">Bahasa Spanyol</a></li>
 					<li><a href="/hi">Bahasa Hindi</a></li>
 					<li><a href="/ar">Bahasa Arab</a></li>
-					<li><a href="/m_content/krakatau">Bahasa Rusia</a></li>
+					<li><a href="/ru">Bahasa Rusia</a></li>
 					<li><a href="/fr">Bahasa Perancis</a></li>
 					<li><a href="/po">Bahasa Portugis</a></li>
 					<li class="active">Bahasa Indonesia</li>

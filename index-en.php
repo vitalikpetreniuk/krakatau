@@ -609,7 +609,7 @@
                         <li><a href="/sp">Spanish</a></li>
                         <li><a href="/hi">Hindi</a></li>
                         <li><a href="/ar">Arabic</a></li>
-                        <li><a href="/m_content/krakatau">Russian</a></li>
+                        <li><a href="/ru">Russian</a></li>
                         <li><a href="/fr">French</a></li>
                         <li><a href="/po">Portuguese</a></li>
                         <li><a href="/in">Indonesian</a></li>

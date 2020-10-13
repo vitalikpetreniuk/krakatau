@@ -605,7 +605,7 @@
 					<li><a href="/sp">Spagnolo</a></li>
 					<li><a href="/hi">Hindi</a></li>
 					<li><a href="/ar">Arabo</a></li>
-					<li><a href="/m_content/krakatau">Russo</a></li>
+					<li><a href="/ru">Russo</a></li>
 					<li><a href="/fr">Francese</a></li>
 					<li><a href="/po">Portoghese</a></li>
 					<li><a href="/in">Indonesiano</a></li>

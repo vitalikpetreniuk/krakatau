@@ -605,7 +605,7 @@
 					<li><a href="/sp">Spanisch</a></li>
 					<li><a href="/hi">Hindi</a></li>
 					<li><a href="/ar">Arabisch</a></li>
-					<li><a href="/m_content/krakatau">Russisch</a></li>
+					<li><a href="/ru">Russisch</a></li>
 					<li><a href="/fr">Französisch</a></li>
 					<li><a href="/po">Portugiesisch</a></li>
 					<li><a href="/in">Indonesisch</a></li>

@@ -603,7 +603,7 @@
 					<li><a href="/sp">スペイン語</a></li>
 					<li><a href="/hi">ヒンディー語</a></li>
 					<li><a href="/ar">アラビア語</a></li>
-					<li><a href="/m_content/krakatau">ロシア語</a></li>
+					<li><a href="/ru">ロシア語</a></li>
 					<li><a href="/fr">フランス語</a></li>
 					<li><a href="/po">ポルトガル語</a></li>
 					<li><a href="/in">インドネシア語</a></li>
