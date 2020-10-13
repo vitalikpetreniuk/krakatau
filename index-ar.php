@@ -401,7 +401,7 @@
 						</ul>
 					</div>
 					<div class="audience-info">
-						<span>يمكن مشاهدة محتواك وسماعه وفهمه و<br><strong>KRAKATAUفهمه والإعجاب فيكل قارة بفضل </strong></span>
+                        <span>يمكن مشاهدة محتواك وسماعه وفهمه و<br><strong><em>KRAKATAU</em>فهمه والإعجاب فيكل قارة بفضل </strong><strong> KRAKATAU</strong></span>
 						<button>أرسل طلبًا</button>
 					</div>
 				</div>

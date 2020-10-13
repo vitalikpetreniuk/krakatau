@@ -2354,6 +2354,12 @@ body.index-jpn .audience-map .audience-quantity span
 }
 
 
+#insertimage1
+{
+    min-height: 35vh;
+}
+
+
 @media only screen and (min-width: 768px) {
     .index-por h1 
     {
