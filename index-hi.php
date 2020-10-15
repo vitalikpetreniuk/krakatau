@@ -21,7 +21,6 @@
 
     <link rel="canonical" href="https://krakatau.pro/hi">
     <link rel="alternate" href="https://krakatau.pro/ru" hreflang="ru">
-    <link rel="alternate" href="https://krakatau.pro/ua" hreflang="uk">
     <link rel="alternate" href="https://krakatau.pro" hreflang="en">
     <link rel="alternate" href="https://krakatau.pro/ar" hreflang="ar">
     <link rel="alternate" href="https://krakatau.pro/ch" hreflang="zh">
@@ -32,7 +31,7 @@
     <link rel="alternate" href="https://krakatau.pro/it" hreflang="it">
     <link rel="alternate" href="https://krakatau.pro/jp" hreflang="ja">
     <link rel="alternate" href="https://krakatau.pro/ko" hreflang="ko">
-    <link rel="alternate" href="https://krakatau.pro/po" hreflang="pl">
+    <link rel="alternate" href="https://krakatau.pro/po" hreflang="pt">
     <link rel="alternate" href="https://krakatau.pro/sp" hreflang="es">
     <link rel="alternate" href="https://krakatau.pro/vi" hreflang="vi">
 
@@ -602,7 +601,7 @@
 					<li class="active">हिन्दी</li>
 					<li><a href="/ar">अरबी</a></li>
 					<li><a href="/ru">रशियन</a></li>
-					<li><a href="/fr">फ्रेंच</a></li>
+					<li><a href="/fr">फ्रेंच</a></li>a
 					<li><a href="/po">पुर्तगाली</a></li>
 					<li><a href="/in">इन्डोनेशियाई</a></li>
 					<li><a href="/ch">चाइनीज</a></li>

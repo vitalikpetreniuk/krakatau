@@ -22,7 +22,6 @@ CPM para aumento do rendimento. &#x2705; Faça seu conteúdo no YouTube dominar 
 
     <link rel="canonical" href="https://krakatau.pro/po">
     <link rel="alternate" href="https://krakatau.pro/ru" hreflang="ru">
-    <link rel="alternate" href="https://krakatau.pro/ua" hreflang="uk">
     <link rel="alternate" href="https://krakatau.pro" hreflang="en">
     <link rel="alternate" href="https://krakatau.pro/ar" hreflang="ar">
     <link rel="alternate" href="https://krakatau.pro/ch" hreflang="zh">
@@ -33,7 +32,7 @@ CPM para aumento do rendimento. &#x2705; Faça seu conteúdo no YouTube dominar 
     <link rel="alternate" href="https://krakatau.pro/it" hreflang="it">
     <link rel="alternate" href="https://krakatau.pro/jp" hreflang="ja">
     <link rel="alternate" href="https://krakatau.pro/ko" hreflang="ko">
-    <link rel="alternate" href="https://krakatau.pro/po" hreflang="pl">
+    <link rel="alternate" href="https://krakatau.pro/po" hreflang="pt">
     <link rel="alternate" href="https://krakatau.pro/sp" hreflang="es">
     <link rel="alternate" href="https://krakatau.pro/vi" hreflang="vi">
 
@@ -595,7 +594,7 @@ CPM para aumento do rendimento. &#x2705; Faça seu conteúdo no YouTube dominar 
 		</div>
 		<div id="popup" class="kr-request request-thanks">
 			<div class="kr-request-content-thanks">
-				<span class="h2" style="margin:0;"></span>
+				<span class="h2" style="margin:0;">Obrigado! Iremos contactá-lo em breve.</span>
 			</div>
 		</div>
        
