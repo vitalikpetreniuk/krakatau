@@ -19,9 +19,9 @@
     <title>YouTube channel Translation and Localization Service | KRAKATAU</title>
     <meta name="description" content="Localize your content in the 14 most popular languages with the highest CPM for revenue growth &#x2705; Let your Youtube content conquer the whole world!">
 
-    <link rel="canonical" href="https://krakatau.pro">
+    <link rel="canonical" href="https://krakatau.pro/">
     <link rel="alternate" href="https://krakatau.pro/ru" hreflang="ru">
-    <link rel="alternate" href="https://krakatau.pro" hreflang="en">
+    <link rel="alternate" href="https://krakatau.pro/" hreflang="en">
     <link rel="alternate" href="https://krakatau.pro/ar" hreflang="ar">
     <link rel="alternate" href="https://krakatau.pro/ch" hreflang="zh">
     <link rel="alternate" href="https://krakatau.pro/de" hreflang="de">
@@ -95,7 +95,7 @@
             <div class="container">
                 <div class="kr-header__left">
                     <div class="kr-header__logo" data-aos="fade-right">
-                        <a href="/en">
+                        <a href="/">
                             <picture>
                               <source srcset="img/logo.webp" type="image/webp">
                               <img src="img/logo.png" alt="logo">
