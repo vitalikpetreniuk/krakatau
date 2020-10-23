@@ -18,7 +18,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,600&display=swap" rel="stylesheet">
 
     <title>Dịch Vụ Dịch Thuật và Bản Địa Hóa kênh YouTube KRAKATAU</title>
-	<meta name="description" content="Dịch kênh Youtube của bạn sang 14 ngôn ngữ phổ biến nhất có mức tăng trưởng doanh thu CPM cao nhất. &#x2705; Hãy để kênh Youtube của bạn chinh phục cả thế giới!">
+	<meta name="description" content="Dịch kênh Youtube của bạn sang 14 ngôn ngữ phổ biến nhất có mức tăng trưởng doanh thu CPM cao nhất.">
 
     <link rel="canonical" href="https://krakatau.pro/vi">
     <link rel="alternate" href="https://krakatau.pro/ru" hreflang="ru">
@@ -200,13 +200,21 @@
 							<path id="gentle-wave1" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
 						</defs>
 						<g class="parallax">
-							<use xlink:href="#gentle-wave1" x="48" y="0" fill="rgba(239,239,239,1)" />
-							<use xlink:href="#gentle-wave1" x="48" y="3" fill="rgba(239,239,239,.6)" />
+                            <use xlink:href="#gentle-wave1" x="48" y="0" fill="rgba(255,255,255,1)" />
+                            <use xlink:href="#gentle-wave1" x="48" y="3" fill="rgba(255,255,255,.6)" />
 						</g>
 					</svg>
 				</div>
 			</section>
 			<section id="about" class="kr-section kr-section_about">
+                <div class="about-video">
+                    <div class="container">
+                        <!--                        <h2>Говорим на языке<br> вашей сверхприбыли!</h2>-->
+                        <div class="video">
+                            <div class="youtube" data-embed="MyK2pnGlBg8"><div class="play-button"></div></div>
+                        </div>
+                    </div>
+                </div>
 				<div class="about-content">
 					<div class="container">
 						<div class="about-content__info" data-aos="fade-in">

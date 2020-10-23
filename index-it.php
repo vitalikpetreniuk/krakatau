@@ -17,7 +17,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
     <title>KRAKATAU — Servizio Traduzione e Localizzazione Canali YouTube</title>
-	<meta name="description" content="Localizza il tuo canale nelle 14 lingue più popolari con il più alto CPM per crescita di ricavi &#x2705; Conquista il mondo con il tuo canale Youtube!">
+	<meta name="description" content="Localizza il tuo canale nelle 14 lingue più popolari con il più alto CPM per crescita di ricavi.">
 
     <link rel="canonical" href="https://krakatau.pro/it">
     <link rel="alternate" href="https://krakatau.pro/ru" hreflang="ru">
@@ -199,13 +199,21 @@
 							<path id="gentle-wave1" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
 						</defs>
 						<g class="parallax">
-							<use xlink:href="#gentle-wave1" x="48" y="0" fill="rgba(239,239,239,1)" />
-							<use xlink:href="#gentle-wave1" x="48" y="3" fill="rgba(239,239,239,.6)" />
+                            <use xlink:href="#gentle-wave1" x="48" y="0" fill="rgba(255,255,255,1)" />
+                            <use xlink:href="#gentle-wave1" x="48" y="3" fill="rgba(255,255,255,.6)" />
 						</g>
 					</svg>
 				</div>
 			</section>
 			<section id="about" class="kr-section kr-section_about">
+                <div class="about-video">
+                    <div class="container">
+                        <!--                        <h2>Говорим на языке<br> вашей сверхприбыли!</h2>-->
+                        <div class="video">
+                            <div class="youtube" data-embed="MyK2pnGlBg8"><div class="play-button"></div></div>
+                        </div>
+                    </div>
+                </div>
 				<div class="about-content">
 					<div class="container">
 						<div class="about-content__info" data-aos="fade-in">
