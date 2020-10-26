@@ -210,7 +210,7 @@
                     <div class="container">
                         <!--                        <h2>Говорим на языке<br> вашей сверхприбыли!</h2>-->
                         <div class="video">
-                            <div class="youtube" data-embed="MyK2pnGlBg8"><div class="play-button"></div></div>
+                            <div class="youtube" data-embed="yZja2SXOTGw"><div class="play-button"></div></div>
                         </div>
                     </div>
                 </div>
