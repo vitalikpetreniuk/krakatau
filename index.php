@@ -1,16 +1,17 @@
 <?php
+$the_url = parse_url($_SERVER['REQUEST_URI']);
 function startsWith( $haystack, $needle ) {
     $length = strlen( $needle );
     return substr( $haystack, 0, $length ) === $needle;
 }
 define('SUPPORTED_LANGUAGES', ['en', 'ar', 'ch', 'de', 'fr', 'hi', 'in', 'it', 'jp', 'ko', 'po', 'ru', 'sp', 'vi']);
-if($_SERVER['REQUEST_URI']=='/') {
+if($the_url['path']=='/') {
     $request_uri = 'en';
 }else {
-    $request_uri = trim($_SERVER['REQUEST_URI'], '/');
+    $request_uri = trim($the_url['path'], '/');
 }
-if(is_null($_SERVER['HTTP_REFERER']) || ((strpos($_SERVER['HTTP_REFERER'], 'krakatay.shypelyk.com') == false) && (strpos($_SERVER['HTTP_REFERER'], 'krakatau.pro') == false))) {
-    if($_SERVER['REQUEST_URI']=='/' || startsWith($_SERVER['REQUEST_URI'], '/?')) {
+if(@is_null($_SERVER['HTTP_REFERER']) || ((@strpos($_SERVER['HTTP_REFERER'], 'krakatay.shypelyk.com') == false) && (@strpos($_SERVER['HTTP_REFERER'], 'krakatau.pro') == false))) {
+    if(@$the_url['path']=='/' || @startsWith($_SERVER['REQUEST_URI'], '/?')) {
         $langs = array();
 
         if (isset($_SERVER['HTTP_ACCEPT_LANGUAGE'])) {
