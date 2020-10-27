@@ -17,7 +17,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
     <title>Layanan Penerjemahan dan Lokalisasi channel YouTube - KRAKATAU</title>
-	<meta name="description" content="Lokalkan kontenmu dalam 14 bahasa paling populer dengan CPM tertinggi untuk meningkatkan pendapatan. &#x2705; Buat konten Youtube-mu merajai dunia!">
+	<meta name="description" content="Lokalkan kontenmu dalam 14 bahasa paling populer dengan CPM tertinggi untuk meningkatkan pendapatan.">
 
     <link rel="canonical" href="https://krakatau.pro/in">
     <link rel="alternate" href="https://krakatau.pro/ru" hreflang="ru">
@@ -206,6 +206,14 @@
 				</div>
 			</section>
 			<section id="about" class="kr-section kr-section_about">
+                <div class="about-video">
+                    <div class="container">
+                        <!--                        <h2>Говорим на языке<br> вашей сверхприбыли!</h2>-->
+                        <div class="video">
+                            <div class="youtube" data-embed="_94cItMBAn4"><div class="play-button"></div></div>
+                        </div>
+                    </div>
+                </div>
 				<div class="about-content">
 					<div class="container">
 						<div class="about-content__info" data-aos="fade-in">

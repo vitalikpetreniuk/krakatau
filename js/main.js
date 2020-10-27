@@ -942,7 +942,7 @@ function audienceLang(lang, audience){
 
 		audience.find('.audience-map').removeClass('eng spa hin ara rus fre por ind chi deu jpn ita vie kor').addClass(lang.toLowerCase());
 		audience.find('.audience-hello span').text(audHello);
-		audience.find('.audience-quantity').html(audAudience+'<span>मिलियन</span');
+		audience.find('.audience-quantity').html(audAudience+'<span>मिलियन</span>');
 		audience.find('.audience-lang span').text(audLanguage);
 	}else if(html_lang === 'zh')
 	{
@@ -6680,6 +6680,16 @@ $(function(){
 	$(window).on('load', function(){
 
 		setTimeout(function (){
+			$('.youtube').each(function (){
+				var iframe = document.createElement( "iframe" );
+				// iframe.setAttribute( "allow", "autoplay" );
+				iframe.setAttribute( "frameborder", "0" );
+				iframe.setAttribute( "allowfullscreen", "" );
+				iframe.setAttribute( "src", "https://www.youtube.com/embed/"+ $(this).data("embed")+"?rel=0&showinfo=0&autoplay=1" );
+				this.innerHTML = "";
+				$(this).append( iframe );
+			})
+
 			$.ajax({
 				url: location.origin + '/img/image-php/image1.php',
 				cache: true,
@@ -6760,3 +6770,24 @@ $(function(){
 
 	});
 });
+( function() {
+	var youtube = document.querySelectorAll( ".youtube" );
+	for (var i = 0; i < youtube.length; i++) {
+		var source = "https://img.youtube.com/vi/"+ youtube[i].dataset.embed +"/sddefault.jpg";
+		var image = new Image();
+		image.src = source;
+		image.addEventListener( "load", function() {
+			youtube[ i ].appendChild( image );
+		}( i ) );
+
+		// youtube[i].addEventListener( "click", function() {
+		// 	var iframe = document.createElement( "iframe" );
+		// 	iframe.setAttribute( "allow", "autoplay" );
+		// 	iframe.setAttribute( "frameborder", "0" );
+		// 	iframe.setAttribute( "allowfullscreen", "" );
+		// 	iframe.setAttribute( "src", "https://www.youtube.com/embed/"+ this.dataset.embed +"?rel=0&showinfo=0&autoplay=1" );
+		// 	this.innerHTML = "";
+		// 	this.appendChild( iframe );
+		// } );
+	};
+} )();
