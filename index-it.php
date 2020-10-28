@@ -519,6 +519,7 @@
                         <span class="h4">guadagnare di più</span>
 
 						<form action="" method="post" novalidate>
+                            <input type="hidden" name="lang" value="it">
                             <input type="text" name="name" id="input_name" placeholder="Il tuo nome" aria-label="name">
                             <div class="contact-social">
                                 <div class="social-inputs">
@@ -573,7 +574,8 @@
 			<div class="kr-request-content">
 				<span class="h2">Scrivici per <span>guadagnare di più</span></span>
 				<form method="post" novalidate>
-					<input type="text"   id="input_name2" name="name" placeholder="Il tuo nome">
+                    <input type="hidden" name="lang" value="it">
+                    <input type="text"   id="input_name2" name="name" placeholder="Il tuo nome">
 					<!-- <input type="text"   id="input_messenger2" name="messenger" placeholder="Мессенджер"> -->
 					<div class="contact-social">
                         <div class="social-inputs">

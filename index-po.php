@@ -1,4 +1,4 @@
-        <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt">
 <head>
     <!-- Google Tag Manager -->
@@ -519,6 +519,7 @@
                         <span class="h4">para ganhar mais</span>
 
 						<form action="" method="post" novalidate>
+                            <input type="hidden" name="lang" value="po">
                             <input type="text" name="name" id="input_name" placeholder="Seu nome" aria-label="name">
                             <div class="contact-social">
                                 <div class="social-inputs">
@@ -573,7 +574,8 @@
 			<div class="kr-request-content">
 				<span class="h2">Escreva-nos<span> para ganhar mais</span></span>
 				<form method="post" novalidate>
-					<input type="text"   id="input_name2" name="name" placeholder="Seu nome" aria-label="name">
+                    <input type="hidden" name="lang" value="po">
+                    <input type="text"   id="input_name2" name="name" placeholder="Seu nome" aria-label="name">
 					<!-- <input type="text"   id="input_messenger2" name="messenger" placeholder="Мессенджер"> -->
 					<div class="contact-social">
                         <div class="social-inputs">

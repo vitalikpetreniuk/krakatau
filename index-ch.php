@@ -517,6 +517,7 @@
                         <span class="h4">賺取更多</span>
 
 						<form action="" method="post" novalidate>
+                            <input type="hidden" name="lang" value="ch">
                             <input type="text" name="name" id="input_name" placeholder="您的姓名" aria-label="name">
                             <div class="contact-social">
                                 <div class="social-inputs">
@@ -571,7 +572,8 @@
 			<div class="kr-request-content">
 				<span class="h2">給我們寫信<span>賺取更多</span></span>
 				<form method="post" novalidate>
-					<input type="text"   id="input_name2" name="name" placeholder="您的姓名" aria-label="name">
+                    <input type="hidden" name="lang" value="ch">
+                    <input type="text"   id="input_name2" name="name" placeholder="您的姓名" aria-label="name">
 					<!-- <input type="text"   id="input_messenger2" name="messenger" placeholder="Мессенджер"> -->
 					<div class="contact-social">
                         <div class="social-inputs">

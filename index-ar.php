@@ -515,6 +515,7 @@
                         <span class="h4">تربح أكثر</span>
 
 						<form action="" method="post" novalidate>
+                            <input type="hidden" name="lang" value="ar">
                             <input type="text" name="name" id="input_name" placeholder="اسمك" aria-label="name">
                             <div class="contact-social">
                                 <div class="social-inputs">
@@ -569,7 +570,8 @@
 			<div class="kr-request-content">
 				<span class="h2">راسلنا كي<span>تربح أكثر</span></span>
 				<form method="post" novalidate>
-					<input type="text"   id="input_name2" name="name" placeholder="اسمك" aria-label="name">
+                    <input type="hidden" name="lang" value="ar">
+                    <input type="text"   id="input_name2" name="name" placeholder="اسمك" aria-label="name">
 					<!-- <input type="text"   id="input_messenger2" name="messenger" placeholder="Мессенджер"> -->
 					<div class="contact-social">
                         <div class="social-inputs">

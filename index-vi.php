@@ -520,6 +520,7 @@
                         <span class="h4">chúng tôi để kiếm được nhiều hơn nữa</span>
  
 						<form action="" method="post" novalidate>
+                            <input type="hidden" name="lang" value="vi">
                             <input type="text" name="name" id="input_name" placeholder="Tên của bạn" aria-label="name">
                             <div class="contact-social">
                                 <div class="social-inputs">
@@ -574,7 +575,8 @@
 			<div class="kr-request-content">
 				<span class="h2">Hãy liên lạc với chúng tôi để<span> kiếm được nhiều hơn nữa</span></span>
 				<form method="post" novalidate>
-					<input type="text"   id="input_name2" name="name" placeholder="Tên của bạn" aria-label="name">
+                    <input type="hidden" name="lang" value="vi">
+                    <input type="text"   id="input_name2" name="name" placeholder="Tên của bạn" aria-label="name">
 					<!-- <input type="text"   id="input_messenger2" name="messenger" placeholder="Мессенджер"> -->
 					<div class="contact-social">
                         <div class="social-inputs">
