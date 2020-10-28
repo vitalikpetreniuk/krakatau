@@ -519,6 +519,7 @@
                         <span class="h4">keuntungan lebih besar</span>
 
 						<form action="" method="post" novalidate>
+                            <input type="hidden" name="lang" value="in">
                             <input type="text" name="name" id="input_name" placeholder="Nama Anda" aria-label="name">
                             <div class="contact-social">
                                 <div class="social-inputs">
@@ -573,7 +574,8 @@
 			<div class="kr-request-content">
 				<span class="h2">Hubungi kami agar mendapatkan <span>keuntungan lebih besar</span></span>
 				<form method="post" novalidate>
-					<input type="text"   id="input_name2" name="name" placeholder="Nama Anda" aria-label="name">
+                    <input type="hidden" name="lang" value="in">
+                    <input type="text"   id="input_name2" name="name" placeholder="Nama Anda" aria-label="name">
 					<!-- <input type="text"   id="input_messenger2" name="messenger" placeholder="Мессенджер"> -->
 					<div class="contact-social">
                         <div class="social-inputs">

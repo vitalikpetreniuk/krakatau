@@ -524,6 +524,7 @@
                         <span class="h4">to earn more</span>
 
                             <form action="" method="post" novalidate>
+                                <input type="hidden" name="lang" value="en">
                                 <input type="text" name="name" id="input_name" placeholder="Your name" aria-label="name">
                                 <div class="contact-social">
                                     <div class="social-inputs">
@@ -578,6 +579,7 @@
             <div class="kr-request-content">
                 <span class="h2">Write to us <span>to earn more</span></span>
                     <form action="" method="post" novalidate>
+                        <input type="hidden" name="lang" value="en">
                         <input type="text"   id="input_name2" name="name" placeholder="Your Name" aria-label="name">
                         <!-- <input type="text"   id="input_messenger2" name="messenger" placeholder="Messenger"> -->
                         <div class="contact-social">

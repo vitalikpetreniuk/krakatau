@@ -516,6 +516,7 @@
                         <span class="h4">お気軽にお問い合わせください</span>
 
 						<form action="" method="post" novalidate>
+                            <input type="hidden" name="lang" value="jp">
                             <input type="text" name="name" id="input_name" placeholder="お名前" aria-label="name">
                             <div class="contact-social">
                                 <div class="social-inputs">
@@ -570,7 +571,8 @@
 			<div class="kr-request-content">
 				<span class="h2">収益向上のお手<br>伝いをします<span>お気軽にお問い合わせください</span></span>
 				<form method="post" novalidate>
-					<input type="text"   id="input_name2" name="name" placeholder="お名前" aria-label="name">
+                    <input type="hidden" name="lang" value="jp">
+                    <input type="text"   id="input_name2" name="name" placeholder="お名前" aria-label="name">
 					<!-- <input type="text"   id="input_messenger2" name="messenger" placeholder="Мессенджер"> -->
 					<div class="contact-social">
                         <div class="social-inputs">
