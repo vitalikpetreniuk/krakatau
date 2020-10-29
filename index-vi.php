@@ -72,6 +72,14 @@
                  background: radial-gradient(#30437b, #232424);
             }
         }
+
+        html[lang="vi"] .profit-calculator .pc-quantity .irs .irs-min:before {
+            content: "1 TR";
+        }
+
+        html[lang="vi"] .profit-calculator .pc-quantity .irs .irs-max:before {
+            content: "100 TR";
+        }
     </style>
 </head>
 <?php if(strpos($_SERVER['HTTP_ACCEPT'], 'image/webp')) {
